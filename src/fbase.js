@@ -16,4 +16,6 @@ import "firebase/auth";
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
+export const firebaseInstance = firebase;
+
 export const authService = firebase.auth();
